@@ -52,7 +52,7 @@ function Projects() {
               isBlog={false}
               title="DatabaseConnection"
               description="Built a Java GUI for MySQL database management using Swing and AWT. Enabled users to list databases, retrieve data, and view it in a user-friendly tabular format. Designed to simplify database interactions, making it accessible for non-technical users."
-            // ghLink="https://github.com/soumyajit4419/Editor.io"
+            ghLink="https://github.com/Chandrasekhar0583/ConnectiongToDataBaseGUI/tree/main"
             // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
