@@ -1,0 +1,21 @@
+.typewriter-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #be50f4; /* Matches the previous color */
+    display: inline-block;
+  }
+  
+  .cursor {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #c084f5;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
