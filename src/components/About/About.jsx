@@ -5,7 +5,7 @@ import LeetCode from "./leetcode";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {

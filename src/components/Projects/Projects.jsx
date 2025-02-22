@@ -2,15 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-import DatabaseConnection from "../../Assets/Projects/databaseconnection.jpeg"
-import NotifyNation from "../../Assets/Projects/notifynation.jpg"
-import RecipeFinder from "../../Assets/Projects/recipefinder.jpg"
+import leaf from "../../assets/Projects/leaf.png";
+import emotion from "../../assets/Projects/emotion.png";
+import editor from "../../assets/Projects/codeEditor.png";
+import chatify from "../../assets/Projects/chatify.png";
+import suicide from "../../assets/Projects/suicide.png";
+import bitsOfCode from "../../assets/Projects/blog.png";
+import DatabaseConnection from "../../assets/Projects/databaseconnection.jpeg"
+import NotifyNation from "../../assets/Projects/notifynation.jpg"
+import RecipeFinder from "../../assets/Projects/recipefinder.jpg"
 
 function Projects() {
   return (

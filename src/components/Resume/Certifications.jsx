@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CertificationCard from "./CertificationCard";
 import Particle from "../Particle";
-import redhatLogo from "../../Assets/Certifications/redhat.jpeg";
-import javaLogo from "../../Assets/Certifications/ITSpecialist.jpeg";
-import ccnaLogo from "../../Assets/Certifications/networking.jpeg";
+import redhatLogo from "../../assets/Certifications/redhat.jpeg";
+import javaLogo from "../../assets/Certifications/ITSpecialist.jpeg";
+import ccnaLogo from "../../assets/Certifications/networking.jpeg";
 
 function Certifications() {
   return (

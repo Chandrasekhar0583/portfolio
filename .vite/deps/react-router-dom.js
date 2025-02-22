@@ -7840,7 +7840,7 @@ function PrefetchPageLinksImpl({
     ),
     [page, nextMatches, matches, manifest, location]
   );
-  let newMatchesForAssets = React9.useMemo(
+  let newMatchesForassets = React9.useMemo(
     () => getNewMatchesForLinks(
       page,
       nextMatches,
@@ -7892,10 +7892,10 @@ function PrefetchPageLinksImpl({
     routeModules
   ]);
   let moduleHrefs = React9.useMemo(
-    () => getModuleLinkHrefs(newMatchesForAssets, manifest),
-    [newMatchesForAssets, manifest]
+    () => getModuleLinkHrefs(newMatchesForassets, manifest),
+    [newMatchesForassets, manifest]
   );
-  let keyedPrefetchLinks = useKeyedPrefetchLinks(newMatchesForAssets);
+  let keyedPrefetchLinks = useKeyedPrefetchLinks(newMatchesForassets);
   return React9.createElement(React9.Fragment, null, dataHrefs.map((href2) => React9.createElement("link", { key: href2, rel: "prefetch", as: "fetch", href: href2, ...linkProps })), moduleHrefs.map((href2) => React9.createElement("link", { key: href2, rel: "modulepreload", href: href2, ...linkProps })), keyedPrefetchLinks.map(({ key, link }) => (
     // these don't spread `linkProps` because they are full link descriptors
     // already with their own props
@@ -8610,7 +8610,7 @@ function useSearchParams(defaultInit) {
     `You cannot use the \`useSearchParams\` hook in a browser that does not support the URLSearchParams API. If you need to support Internet Explorer 11, we recommend you load a polyfill such as https://github.com/ungap/url-search-params.`
   );
   let defaultSearchParamsRef = React10.useRef(createSearchParams(defaultInit));
-  let hasSetSearchParamsRef = React10.useRef(false);
+  let hassetsearchParamsRef = React10.useRef(false);
   let location = useLocation();
   let searchParams = React10.useMemo(
     () => (
@@ -8619,7 +8619,7 @@ function useSearchParams(defaultInit) {
       // remove a param with setSearchParams({}) if it has an initial value
       getSearchParamsForLocation(
         location.search,
-        hasSetSearchParamsRef.current ? null : defaultSearchParamsRef.current
+        hassetsearchParamsRef.current ? null : defaultSearchParamsRef.current
       )
     ),
     [location.search]
@@ -8630,7 +8630,7 @@ function useSearchParams(defaultInit) {
       const newSearchParams = createSearchParams(
         typeof nextInit === "function" ? nextInit(searchParams) : nextInit
       );
-      hasSetSearchParamsRef.current = true;
+      hassetsearchParamsRef.current = true;
       navigate("?" + newSearchParams, navigateOptions);
     },
     [navigate, searchParams]
