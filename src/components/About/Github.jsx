@@ -8,29 +8,31 @@ function Github() {
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth < 768) {
-        setBlockSize(5);
+        setBlockSize(6); // Adjust block size for mobile
       } else {
-        setBlockSize(14);
+        setBlockSize(12);
       }
     }
 
     handleResize();
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+        Git <strong className="purple">Stat</strong>
       </h1>
+
+      {/* Directly apply styling without extra divs */}
       <GitHubCalendar
         username="Chandrasekhar0583"
         blockSize={blockSize}
         blockMargin={4}
         color="#c084f5"
         fontSize={14}
+        style={{ width: "100%", overflowX: "auto" }} // Ensures built-in scroll works
       />
     </Row>
   );

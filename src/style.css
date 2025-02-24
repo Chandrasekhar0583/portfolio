@@ -882,3 +882,29 @@ textarea{
   }
 
 }
+
+.leetcode-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.leetcode-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow */
+}
+.github-calendar-wrapper {
+  width: 100%;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.github-calendar-container {
+  min-width: 750px; /* Forces scrolling when width is smaller */
+  display: flex;
+  justify-content: center;
+}
