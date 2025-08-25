@@ -607,7 +607,7 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 4em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -620,18 +620,34 @@ button:focus {
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
 
+
+
+/* .tech-icons {
+  background: var(--card-background) !important;
+  border: 1px solid rgba(166, 181, 246, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: var(--border-radius) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: var(--shadow-secondary) !important;
+} */
+
+.tech-icons:hover {
+  transform: translateY(-8px) rotate(5deg) !important;
+  box-shadow: var(--shadow-primary) !important;
+  border-color: rgba(102, 126, 234, 0.4) !important;
+}
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
   }
 }
 
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;

@@ -31,7 +31,7 @@ function Projects() {
               title="NotifyNation"
               description="Built a web app using React, MongoDB, and Node.js for job registration and hall ticket downloads. Designed an interactive dashboard with email-based test results and resources. Added download options for application forms, admit cards, and test results for enhanced user convenience."
               ghLink="https://github.com/Chandrasekhar0583/NotifyNation"
-            // demoLink="https://chatify-49.web.app/"
+            demoLink="https://notify-nation-flame.vercel.app/"
             />
           </Col>
 

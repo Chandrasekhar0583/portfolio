@@ -20,36 +20,44 @@ function Home2() {
       LET ME <span className="purple"> INTRODUCE </span> MYSELF
     </h1>
     
-    <p className="home-about-body">
-      I'm a full-stack developer passionate about creating dynamic web and mobile apps. I specialize in building applications using 
-      <i>
-        <b className="purple"> React.js </b> and <b className="purple"> React Native</b>.
-      </i>
-      <br />
-      <br />
-      I'm proficient in
-      <i>
-        <b className="purple"> JavaScript, Java</b>
-      </i>
-      <br />
-      <br />
-      I focus on building scalable backends with
-      <i>
-        <b className="purple"> Node.js </b> and <b className="purple"> Express.js</b>,
-      </i> while ensuring smooth frontend-backend integration with
-      <i>
-        <b className="purple"> RESTful APIs</b> 
-      </i>
-      <br />
-      <br />
-      I enjoy solving complex problems and building products that offer real value to users.
-    </p>
+ <p className="home-about-body">
+  I'm a full-stack developer passionate about creating dynamic web and mobile apps. I specialize in building applications using 
+  <i>
+    <b className="purple"> React.js </b> and <b className="purple"> React Native</b>.
+  </i>
+  <br />
+  <br />
+  I'm proficient in
+  <i>
+    <b className="purple"> JavaScript, Java</b>
+  </i>
+  <br />
+  <br />
+  I focus on building scalable backends with
+  <i>
+    <b className="purple"> Node.js </b> and <b className="purple"> Express.js</b>,
+  </i> while ensuring smooth frontend-backend integration with
+  <i>
+    <b className="purple"> RESTful APIs</b> 
+  </i>
+  <br />
+  <br />
+  I'm also a certified professional in
+  <i>
+    <b className="purple"> ServiceNow</b>,
+  </i> which strengthens my ability to deliver enterprise-grade solutions and ITSM workflows.
+  <br />
+  <br />
+  I enjoy solving complex problems and building products that offer real value to users.
+</p>
+
+
   </Col>
-  <Col md={4} className="d-flex justify-content-center my-4">
+  {/* <Col md={4} className="d-flex justify-content-center my-4">
     <div>
       <img src={myImg} className="img-fluid  rounded-circle" alt="avatar" />
     </div>
-  </Col>
+  </Col> */}
   
 </Row>
 

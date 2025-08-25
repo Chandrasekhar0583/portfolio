@@ -9,6 +9,15 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+  <img
+    src="/assets/servicenow-logo.png"  // Update this path to match your actual asset path
+    alt="ServiceNow"
+    style={{ width: "40px", height: "40px" }}
+  />
+  <p style={{ fontSize: "20px", marginTop: "5px" }}>ServiceNow</p>
+</Col>
+
+      <Col xs={4} md={2} className="tech-icons">
         <FaHtml5 />
         <p style={{ fontSize: "20px", marginTop: "5px" }}>HTML5</p>
       </Col>
