@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 function CertificationCard(props) {
   return (
     <Card className="certification-card-view">
-      <Card.Img variant="top" style={{ aspectRatio: "1/1", objectFit:"cover" }} src={props.imgPath} alt="certification-img" />
+      <Card.Img variant="top" style={{ aspectRatio: "2/1.5", objectFit:"cover" }} src={props.imgPath} alt="certification-img" />
       <Card.Body>
         <Card.Title style={{ color: "rgba(231, 50, 255, 0.91)" }}>
           {props.title}
